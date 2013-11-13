@@ -1,9 +1,9 @@
 require 'spec_helper'
 
 describe "Google home page", :type => :feature  do
-	it "has the lucky button" do
+	it "has search" do
 		visit "/"
-		expect(page).to have_content("I'm Feeling Lucky")
+		expect(page).to have_content("search")
 	end
 end
 

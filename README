@@ -17,4 +17,11 @@ How to:
 3. ... <firefox>
 4. completed test.
 
+But what about headlessness?
+
+You can do this, but I wanted a click-and-point robot. 
+
+You can headless by going: 
++require 'capybara/webkit'
++Capybara.default_driver = :webkit
 
